@@ -33,13 +33,22 @@
   width: 500px;
   position: relative;
   margin: 0px auto;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
   border-radius: 2px;
   transform: translateY(100%);
   transition: transform 0.2s ease;
   box-shadow: 0 2px 8px 3px;
   font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  border-radius: 3px;
+  background-color: rgb(86, 228, 204);
+}
+.modal form input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  border: none;
 }
 
 .abc {
@@ -54,6 +63,24 @@
   box-shadow: 1px 1px 1px #0000003a;
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.562);
+}
+
+.input{
+  margin: 5px;
+  border-radius: 10px;
+  height: 25px;
+  background-color: rgb(20, 240, 166);
+  border: none;
+}
+.input1{
+  display: block;
+}
+.search{
+  display: flex;
+  text-align: right;
+}
+.header{
+  display: flex;
 }
 
 
